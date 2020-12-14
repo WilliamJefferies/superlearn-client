@@ -48,6 +48,55 @@
 - Time & Space Query Optimisation - Reselect ``https://www.npmjs.com/package/reselect``
 - Run Time Dynamic Presentation - Styled Components ``https://styled-components.com``
 
+## BizLogic Structure
+
+```
+├───Operations/ <THINGS WE DO>
+│   ├───Course.ts
+│   ├───LearningOutcome.ts
+│   ├───Lesson.ts
+│   ├───Pathway.ts
+│   ├───Schedule.ts
+│   ├───Wallet.ts
+│   └───interface.ts
+├───People/ <WHO WE ARE>
+│   ├───Coach.ts
+│   ├───Parent.ts
+│   ├───Person.ts
+│   ├───Student.ts
+│   └───interface.ts
+├───Records/ <WHAT WE DOCUMENT>
+│   ├───BillingRecord.ts
+│   ├───CoachPerformanceRecord.ts
+│   ├───FeedbackRecord.ts
+│   ├───OutcomeRecord.ts
+│   ├───Record.ts
+│   ├───StudentActivityRecord.ts
+│   └───interface.ts
+└───namespace.ts
+```
+
+## Data Flow
+```
+├───sagas/ <async i/o>
+│   ├───*
+├───reducers/ <state>
+│   ├───*
+├───navigation/ <view controller>
+│   ├─── *
+├───selectors/ <queries>
+│   ├─── *
+├───components/ <UI>
+│   ├─── *
+├───screens/ <view rendering>
+│   ├───*
+├───actions/ <user events>
+│   ├─── *
+├───middleware/ <side effect hooks>
+│   ├───*
+├───analytics/ *
+```
+
 ## I/O, Time & Space Implementation Rationale
 
 ### Amplify DataStore + Redux
