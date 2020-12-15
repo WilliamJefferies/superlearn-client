@@ -91,13 +91,21 @@ _Slow is fast here, take the time to learn before contributing, and then move at
 - Run Time Dynamic Presentation - Styled Components ``https://styled-components.com``
 
 ### CloudOps
-- Language - Python || Node.js (decide as you go)
+
+#### Tech:
+- Language - Python || Node.js (decide as you go for solo functions)
 - Ops - Serverless Framework ``https://www.serverless.com``
+
+####Templates:
+- Python ec2 start stop (compute tasks)
+- Python s3 bucket (storage)
+- NodeJS HTTP Crud W Database (speedy rest)
+- NodeJS WebHook Triggered Functions (speedy pub sub design)
 
 ## Dev Automation
 - React Native Components ``[[Script for this is broken!!]]``
-- Node Serverless ``yarn serverless-node --FUNC 'Function Name'``
-- Python Serverless ``yarn serverless-python --FUNC 'Function Name'``
+- Generic Node Serverless ``yarn serverless-node --FUNC 'Function Name'``
+- Generic Python Serverless ``yarn serverless-python --FUNC 'Function Name'``
 
 ## BizLogic Structure
 _Seperation of concerns between who, what, document_
@@ -197,7 +205,8 @@ Reselect uses the memo pattern for complex business logic on the front end, to r
 - Code Generation [x]
 - Serverless Python [x]
 - Serverless Node [x]
-  - Init Redux Store []
+- Cloud Templates [x]
+- Init Redux Store [x]
 - Embed AWS into dataflow skeleton [wip]
   
 ### Day one
