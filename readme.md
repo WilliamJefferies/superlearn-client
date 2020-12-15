@@ -1,5 +1,24 @@
 # Project SuperLearn
 
+## Engineering Principles
+
+_Designed to be the best in the world in performance and development turn around time._
+
+_NoOps Lightspeed Development App._
+
+_React Native in TypeScript with Serverless Python for cloud jobs._
+
+_No backend/API development ever required._
+
+_No DevOps ever required._
+
+_Global scale with best possible network I/O and time & space in mind, automatically._
+
+_Free for first 10k users, cheap for next ten million, expensive for second billion._
+
+_Build once, build beautiful, build perfect, build fast._
+
+_Be the best in the world at what we do._
 
 ## ENV Setup
 
@@ -34,7 +53,8 @@
   ```
 - Open Chrome Dev Tools for Web App
 
-## Engineering Team OnBoarding //skip what you know
+## Engineering Team OnBoarding 
+_Slow is fast here, take the time to learn before contributing, and then move at lightspeed_
 
 
 - JavaScript ES6 Basics (1 hours) ``https://www.youtube.com/watch?v=nZ1DMMsyVyI``
