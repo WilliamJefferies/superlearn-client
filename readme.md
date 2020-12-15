@@ -168,7 +168,7 @@ _Follow top to bottom. Unidirectional data flow when possible._
 
 ## Cloud Native Backend (Python && Node)
 
-_Every cloud func will have its own folder with devOps & devSecOps config. This is all our automated tasks in cloud. Pick the language depending on the task_
+_Every cloud func has its own folder with devOps & devSecOps config. This is all our automated tasks in cloud. Pick the language depending on the task, use the command line to generate._
 
 
 ```
