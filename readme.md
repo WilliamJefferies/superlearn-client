@@ -54,6 +54,7 @@
 ## Core Libraries
 
 ---
+### Front
 - Language - TypeScript ``https://www.typescriptlang.org``
 - Client - React (Native, Web) ``https://reactnative.dev``
 - Cloud Native - Amplify/AWS SDK ``https://aws.amazon.com/amplify/``
@@ -64,7 +65,13 @@
 - Time & Space Query Optimisation - Reselect ``https://www.npmjs.com/package/reselect``
 - Run Time Dynamic Presentation - Styled Components ``https://styled-components.com``
 
+### Back
+- Language - Python
+- Ops - Serverless Framework ``https://www.serverless.com``
+
+
 ## BizLogic Structure
+_Seperation of concerns between who, what, document_
 
 ---
 
@@ -96,6 +103,8 @@
 
 ## Data Flow Structure 
 
+_Follow top to bottom_
+
 ---
 ```
 ├───sagas/ <async i/o>
@@ -116,6 +125,23 @@
 │   ├───*
 ├───analytics/ *
 ```
+
+
+## Cloud Native Backend (Python)
+
+_Every cloud func will have its own folder with devOps & devSecOps config. This is all our automated tasks in cloud_
+
+---
+```
+├───Functions/ <async i/o>
+│   ├───DataEng/*
+│   ├───MachineLearning/*
+│   ├───PushNotifications/<func name>/*
+│   ├───BizOps/<func name>/*
+├───handler.py
+├───serverless.yml
+```
+
 
 ## I/O, Time & Space Implementation Rationale
 
@@ -150,5 +176,3 @@ Reselect uses the memo pattern for complex business logic on the front end, to r
 
 ### Blockers
 - No defined scope
-
-## Continuous Development Person
