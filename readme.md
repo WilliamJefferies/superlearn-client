@@ -262,3 +262,13 @@ Reselect uses the memo pattern for complex business logic on the front end, to r
 
 ### Blockers
 - No defined scope [[Actioned: Charlie Responsible]]
+
+
+### Deploy Conf & Logs
+```
+├───cicd/
+│   └───serverless.yml
+└───logs/
+    ├───api.txt
+    └───cognito.txt
+```
