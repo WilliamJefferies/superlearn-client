@@ -96,7 +96,7 @@ _Slow is fast here, take the time to learn before contributing, and then move at
 - Language - Python || Node.js (decide as you go for solo functions)
 - Ops - Serverless Framework ``https://www.serverless.com``
 
-####Templates:
+#### Templates:
 - Python ec2 start stop (compute tasks)
 - Python s3 bucket (storage)
 - NodeJS HTTP Crud W Database (speedy rest)
