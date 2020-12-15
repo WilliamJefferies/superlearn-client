@@ -13,6 +13,7 @@ Principles:
 - _Be the best in the world at what we do._
 - _Push to master for auto deploy._
 - _One repo for everything._
+- _***Mint condition first edition charizard level work flow***._
 
 Practices:
 - _BizLogic stays in classes._
