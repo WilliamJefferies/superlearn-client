@@ -1,6 +1,6 @@
 # Project SuperLearn
 
-
+Principles:
 - _Designed to be the best in the world in performance and development turn around time._
 
 - _NoOps Lightspeed Development App._
@@ -24,6 +24,13 @@
 - _Push to master for auto deploy._
 
 - _One repo for everything._
+
+Practices:
+- _BizLogic stays in classes._
+- _Write components that can be used across different screens._
+- _Combine data with selectors on the front end, not the data layer._
+- _Tightly couple features to screens._
+- _Write templates and generate ip. Slow is fast._
 
 ## ENV Setup
 
