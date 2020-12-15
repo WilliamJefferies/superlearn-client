@@ -94,8 +94,8 @@ _Slow is fast here, take the time to learn before contributing, and then move at
 
 ## Dev Automation
 - React Native Components ``[[Script for this is broken!!]]``
-- Node Serverless ``serverless create function  -f <name> --handler Serverless/Node/functions/<name>.<name> --path Serverless/Node/tests/``
-- Python Serverless ````serverless create function  -f <name> --handler Serverless/Python/functions/<name>.<name> --path Serverless/Python/tests/````
+- Node Serverless ``yarn serverless-node --FUNC 'Function Name'``
+- Python Serverless ``yarn serverless-python --FUNC 'Function Name'``
 
 ## BizLogic Structure
 _Seperation of concerns between who, what, document_
