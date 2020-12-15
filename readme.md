@@ -5,7 +5,9 @@
 
 - _NoOps Lightspeed Development App._
 
-- _React Native in TypeScript with Serverless Python for cloud jobs._
+- _React Native in TypeScript for web, native apps._
+
+- _Serverless functions deployed with unlimited bandwidth written in either python or node, you decide as you code_
 
 - _No backend/API development ever required._
 
@@ -19,11 +21,15 @@
 
 - _Be the best in the world at what we do._
 
+- _Push to master for auto deploy._
+
 ## ENV Setup
 
 
 - Download the repo and cd
   ``git clone <repo uri> && cd SuperLearn``
+  
+- Request IAM dev and devOps service account from William ```Phone 0423 965 305```
   
 - File Permissions For DevTools
   ```chmod a+rwx * && sudo chown -RW $(whoami) *```
@@ -37,9 +43,9 @@
 - Install brew (macOS)
   ``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``
 - Install AWS command line tools + conf
-  ``sudo npm install -g @aws-amplify/cli``
+  ``sudo npm install -g @aws-amplify/cli && amplify configure``
 - Install serverless framework + conf
-  ``sudo npm install -g serverless``
+  ``sudo npm install -g serverless && serverless config credentials --provider provider --key key --secret secret``
 
 ## Hot Reload
 
@@ -51,6 +57,9 @@
   andorid: https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_AU&gl=US
   ```
 - Open Chrome Dev Tools for Web App
+
+- AWS dev-env push **[[DANGER ZONE, TODO PROD ACCESS CONF]]** ```amplify push```
+- Serverless dev-env push  **[[DANGER ZONE, TODO PROD ACCESS CONF]]** ```serverless deploy```
 
 ## Engineering Team OnBoarding 
 _Slow is fast here, take the time to learn before contributing, and then move at lightspeed_
@@ -80,9 +89,13 @@ _Slow is fast here, take the time to learn before contributing, and then move at
 - Run Time Dynamic Presentation - Styled Components ``https://styled-components.com``
 
 ### CloudOps
-- Language - Python
+- Language - Python || Node.js (decide as you go)
 - Ops - Serverless Framework ``https://www.serverless.com``
 
+## Dev Automation
+- React Native Components ``[[Script for this is broken!!]]``
+- Node Serverless ``serverless create function  -f <name> --handler Serverless/Node/functions/<name>.<name> --path Serverless/Node/tests/``
+- Python Serverless ````serverless create function  -f <name> --handler Serverless/Python/functions/<name>.<name> --path Serverless/Python/tests/````
 
 ## BizLogic Structure
 _Seperation of concerns between who, what, document_
