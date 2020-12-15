@@ -154,20 +154,20 @@ Reselect uses the memo pattern for complex business logic on the front end, to r
 ## Implementation Plan
 
 
-
 ### Day zero
-- Unidirectional dataflow skeleton (redux, reselect)
-- AWS application init
-- Embed AWS into dataflow skeleton
+- Unidirectional dataflow skeleton (redux, reselect) [x]
+- AWS application init [x]
+- AWS deployed [x]
+- Embed AWS into dataflow skeleton [wip]
   
 ### Day one
-- Auth (cognito)
-- GraphQl CRUD API's complete for MVP app lifecycle
-- Components planned
+- Auth (cognito) [x]
+- GraphQl CRUD API's complete for current app lifecycle [x]
+- Components planned [x]
 
 ### Week two
-- Alpha testing of SMS
-- Payments gateway
+- Alpha testing of student management services [[Needs KPIS && Change Management Process]]
+- Payments gateway [[Needs Scope]]
 
 ### Blockers
-- No defined scope
+- No defined scope [[Actioned: Charlie Responsible]]
