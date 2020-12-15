@@ -26,9 +26,7 @@ Practices:
 
 - Download the repo and cd
   ``git clone <repo uri> && cd SuperLearn``
-  
 - Request IAM dev and devOps service account from William ```Phone 0423 965 305```
-  
 - File Permissions For DevTools
   ```chmod a+rwx * && sudo chown -RW $(whoami) *```
 - Install dependencies
@@ -55,7 +53,6 @@ Practices:
   andorid: https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_AU&gl=US
   ```
 - Open Chrome Dev Tools for Web App
-
 - AWS dev-env push **[[DANGER ZONE, TODO PROD ACCESS CONF]]** ```amplify push```
 - Serverless dev-env push  **[[DANGER ZONE, TODO PROD ACCESS CONF]]** ```serverless deploy```
 
