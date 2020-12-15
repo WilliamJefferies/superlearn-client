@@ -2,27 +2,16 @@
 
 Principles:
 - _Designed to be the best in the world in performance and development turn around time._
-
 - _NoOps Lightspeed Development App._
-
 - _React Native in TypeScript for web, native apps._
-
 - _Serverless functions deployed with unlimited bandwidth written in either python or node, you decide as you code_
-
 - _No backend/API development ever required._
-
 - _No DevOps ever required._
-
 - _Global scale with best possible network I/O and time & space in mind, automatically._
-
 - _Free for first 10k users, cheap for next ten million, expensive for second billion._
-
 - _Build once, build beautiful, build perfect, build fast._
-
 - _Be the best in the world at what we do._
-
 - _Push to master for auto deploy._
-
 - _One repo for everything._
 
 Practices:
