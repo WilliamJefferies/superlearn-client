@@ -23,6 +23,8 @@
 
 - _Push to master for auto deploy._
 
+- _One repo for everything._
+
 ## ENV Setup
 
 
@@ -160,13 +162,15 @@ _Every cloud func will have its own folder with devOps & devSecOps config. This 
 
 
 ```
-├───Functions/ <async i/o>
+├───Python/ <data>
 │   ├───DataEng/*
 │   ├───MachineLearning/*
+├───Node/ <biz ops/features>
 │   ├───PushNotifications/<func name>/*
 │   ├───BizOps/<func name>/*
 ├───handler.py
-├───serverless.yml
+├───handler.js
+├───serverless.yml **DANGER ZONE**
 ```
 
 
@@ -190,6 +194,9 @@ Reselect uses the memo pattern for complex business logic on the front end, to r
 - Unidirectional dataflow skeleton (redux, reselect) [x]
 - AWS application init [x]
 - AWS deployed [x]
+- Code Generation [x]
+- Serverless Python [x]
+- Serverless Node [x]
 - Embed AWS into dataflow skeleton [wip]
   
 ### Day one
