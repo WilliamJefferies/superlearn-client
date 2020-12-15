@@ -1,10 +1,8 @@
 # Project SuperLearn
 
----
 
 ## ENV Setup
 
----
 
 - Download the repo and cd
   ``git clone <repo uri> && cd SuperLearn``
@@ -27,7 +25,6 @@
 
 ## Hot Reload
 
----
 - Start the local dev server
 ```cd SuperLearn && yarn start```
 - Download client app on mobile and scan QR code for Native App
@@ -39,7 +36,6 @@
 
 ## Engineering Team OnBoarding //skip what you know
 
----
 
 - JavaScript ES6 Basics (1 hours) ``https://www.youtube.com/watch?v=nZ1DMMsyVyI``
 - TypeScript Essentials (3 hours) ``https://www.linkedin.com/learning/typescript-essential-training``
@@ -53,7 +49,6 @@
 
 ## Core Libraries
 
----
 ### Client
 - Language - TypeScript ``https://www.typescriptlang.org``
 - Client - React (Native, Web) ``https://reactnative.dev``
@@ -73,7 +68,7 @@
 ## BizLogic Structure
 _Seperation of concerns between who, what, document_
 
----
+
 
 ```
 ├───Operations/ <THINGS WE DO>
@@ -105,7 +100,7 @@ _Seperation of concerns between who, what, document_
 
 _Follow top to bottom_
 
----
+
 ```
 ├───sagas/ <async i/o>
 │   ├───*
@@ -131,7 +126,7 @@ _Follow top to bottom_
 
 _Every cloud func will have its own folder with devOps & devSecOps config. This is all our automated tasks in cloud_
 
----
+
 ```
 ├───Functions/ <async i/o>
 │   ├───DataEng/*
@@ -145,7 +140,7 @@ _Every cloud func will have its own folder with devOps & devSecOps config. This 
 
 ## I/O, Time & Space Implementation Rationale
 
----
+
 
 ### Amplify DataStore + Redux
 Datastore is an abstraction API layer that handles on device local storage and syncs automatically with AWS databases through magic (which can be configed for optimal performance). Redux is a commonly used state management process, which will tie directly into AWS abstracting all concerns related to backend.
@@ -158,7 +153,7 @@ Reselect uses the memo pattern for complex business logic on the front end, to r
 
 ## Implementation Plan
 
----
+
 
 ### Day zero
 - Unidirectional dataflow skeleton (redux, reselect)
