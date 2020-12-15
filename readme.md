@@ -107,6 +107,8 @@ _Slow is fast here, take the time to learn before contributing, and then move at
 - NodeJS HTTP Crud W Database (speedy rest)
 - NodeJS WebHook Triggered Functions (speedy pub sub design)
 
+
+
 ## BizLogic Structure
 _Seperation of concerns between who, what, document_
 
@@ -170,15 +172,53 @@ _Every cloud func will have its own folder with devOps & devSecOps config. This 
 
 
 ```
-├───Python/ <data>
-│   ├───DataEng/*
-│   ├───MachineLearning/*
-├───Node/ <biz ops/features>
-│   ├───PushNotifications/<func name>/*
-│   ├───BizOps/<func name>/*
-├───handler.py
+├───Node/*
+├───Python/*
+├───nodejs-crud-http-endpoint-trigger-template/
+│   ├───todos/
+│   │   ├───create.js
+│   │   ├───delete.js
+│   │   ├───get.js
+│   │   ├───list.js
+│   │   └───update.js
+│   ├───.gitignore
+│   ├───README.md
+│   ├───package.json
+│   └───serverless.yml
+├───nodejs-generic-http-endpoint-trigger-template/
+│   ├───.idea/
+│   │   ├───codeStyles/
+│   │   │   └───codeStyleConfig.xml
+│   │   ├───.gitignore
+│   │   ├───aws.xml
+│   │   ├───modules.xml
+│   │   ├───nodejs-example.iml
+│   │   └───workspace.xml
+│   ├───.gitignore
+│   ├───handler.js
+│   └───serverless.yml
+├───python-ec2-start-stop-template/
+│   ├───.serverless/
+│   │   ├───cloudformation-template-create-stack.json
+│   │   ├───cloudformation-template-update-stack.json
+│   │   ├───python-ec2-start-stop.zip
+│   │   └───serverless-state.json
+│   ├───.gitignore
+│   ├───handler.py
+│   └───serverless.yml
+├───python-serverless-s3-bucket-template/
+│   ├───.serverless/
+│   │   ├───cloudformation-template-create-stack.json
+│   │   ├───cloudformation-template-update-stack.json
+│   │   ├───hello-world-python.zip
+│   │   └───serverless-state.json
+│   ├───.gitignore
+│   ├───handler.py
+│   └───serverless.yml
+├───.gitignore
 ├───handler.js
-├───serverless.yml **DANGER ZONE**
+├───handler.py
+└───serverless.yml ***DANGER ZONE HERE***
 ```
 
 
