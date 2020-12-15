@@ -197,6 +197,7 @@ Reselect uses the memo pattern for complex business logic on the front end, to r
 - Code Generation [x]
 - Serverless Python [x]
 - Serverless Node [x]
+  - Init Redux Store []
 - Embed AWS into dataflow skeleton [wip]
   
 ### Day one
