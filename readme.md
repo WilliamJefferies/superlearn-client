@@ -24,29 +24,21 @@ Practices:
 ## ENV Setup
 
 
-- Download the repo and cd
-  ``git clone <repo uri> && cd SuperLearn``
-- Request IAM dev and devOps service account from William ```Phone 0423 965 305```
-- File Permissions For DevTools
-  ```chmod a+rwx * && sudo chown -RW $(whoami) *```
-- Install dependencies
-  ``yarn add *``
-- Install XCode Developer Tools (iPhone simulator)
-  ``xcode-select --install``
+- Download the repo and cd ``git clone <repo uri> && cd SuperLearn``
+- Request IAM dev and devOps service account from William ``Phone 0423 965 305``
+- File Permissions For DevTools ``chmod a+rwx * && sudo chown -RW $(whoami) *``
+- Install dependencies ``yarn add *``
+- Install XCode Developer Tools (iPhone simulator) ``xcode-select --install``
 - Accept Apple Developer Licence Conditions
-- Install Android Emulator
-  ``sudo npm install -g @aws-amplify/cli``
-- Install brew (macOS)
-  ``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``
-- Install AWS command line tools + conf
-  ``sudo npm install -g @aws-amplify/cli && amplify configure``
-- Install serverless framework + conf
-  ``sudo npm install -g serverless && serverless config credentials --provider provider --key key --secret secret``
+- Install Android Emulator ``sudo npm install -g @aws-amplify/cli``
+- Install brew (macOS) ``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``
+- Install AWS command line tools + conf ``sudo npm install -g @aws-amplify/cli && amplify configure``
+- Install serverless framework + conf ``sudo npm install -g serverless && serverless config credentials --provider provider --key key --secret secret``
 
 ## Hot Reload
 
 - Start the local dev server
-```cd SuperLearn && yarn start```
+``cd SuperLearn && yarn start``
 - Download client app on mobile and scan QR code for Native App
   ```
   ios: https://apps.apple.com/au/app/expo-client/id982107779
