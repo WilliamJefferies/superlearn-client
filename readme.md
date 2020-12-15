@@ -54,7 +54,7 @@
 ## Core Libraries
 
 ---
-### Front
+### Client
 - Language - TypeScript ``https://www.typescriptlang.org``
 - Client - React (Native, Web) ``https://reactnative.dev``
 - Cloud Native - Amplify/AWS SDK ``https://aws.amazon.com/amplify/``
@@ -65,7 +65,7 @@
 - Time & Space Query Optimisation - Reselect ``https://www.npmjs.com/package/reselect``
 - Run Time Dynamic Presentation - Styled Components ``https://styled-components.com``
 
-### Back
+### CloudOps
 - Language - Python
 - Ops - Serverless Framework ``https://www.serverless.com``
 
