@@ -96,16 +96,16 @@ _Slow is fast here, take the time to learn before contributing, and then move at
 - Language - Python || Node.js (decide as you go for solo functions)
 - Ops - Serverless Framework ``https://www.serverless.com``
 
+#### Dev Automation
+- React Native Components ``[[Script for this is broken!!]]``
+- Generic Node Serverless ``yarn serverless-node --FUNC 'Function Name'``
+- Generic Python Serverless ``yarn serverless-python --FUNC 'Function Name'``
+
 #### Templates:
 - Python ec2 start stop (compute tasks)
 - Python s3 bucket (storage)
 - NodeJS HTTP Crud W Database (speedy rest)
 - NodeJS WebHook Triggered Functions (speedy pub sub design)
-
-## Dev Automation
-- React Native Components ``[[Script for this is broken!!]]``
-- Generic Node Serverless ``yarn serverless-node --FUNC 'Function Name'``
-- Generic Python Serverless ``yarn serverless-python --FUNC 'Function Name'``
 
 ## BizLogic Structure
 _Seperation of concerns between who, what, document_
@@ -140,7 +140,7 @@ _Seperation of concerns between who, what, document_
 
 ## Data Flow Structure 
 
-_Follow top to bottom_
+_Follow top to bottom. Unidirectional data flow when possible._
 
 
 ```
@@ -164,9 +164,9 @@ _Follow top to bottom_
 ```
 
 
-## Cloud Native Backend (Python)
+## Cloud Native Backend (Python && Node)
 
-_Every cloud func will have its own folder with devOps & devSecOps config. This is all our automated tasks in cloud_
+_Every cloud func will have its own folder with devOps & devSecOps config. This is all our automated tasks in cloud. Pick the language depending on the task_
 
 
 ```
@@ -207,12 +207,13 @@ Reselect uses the memo pattern for complex business logic on the front end, to r
 - Serverless Node [x]
 - Cloud Templates [x]
 - Init Redux Store [x]
-- Embed AWS into dataflow skeleton [wip]
+- Embed AWS into dataflow skeleton [BLOCKED]
   
 ### Day one
 - Auth (cognito) [x]
 - GraphQl CRUD API's complete for current app lifecycle [x]
-- Components planned [x]
+- Components mapped [x]
+- DevOps completer [x]
 
 ### Week two
 - Alpha testing of student management services [[Needs KPIS && Change Management Process]]
