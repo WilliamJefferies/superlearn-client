@@ -249,6 +249,16 @@ Reselect uses the memo pattern for complex business logic on the front end, to r
 - No defined scope [[Actioned: Charlie Responsible]]
 
 
+### Wishlist (T1-2021 PROD, Ugly UI)
+- Browser video chat rather than zoom
+- All student management in app
+- All third party edu vendors launched from app with re-dir & auth
+- All sections automated
+- Learning pathways established
+
+### Wishlist (T12-2021 PROD, Good UI)
+- TBD
+
 ### Deploy Conf & Logs
 ```
 ├───cicd/
