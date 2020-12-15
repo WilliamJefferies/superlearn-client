@@ -1,0 +1,105 @@
+UPDATE_IN_PROGRESS UnauthRole                          AWS::IAM::Role             Tue Dec 15 2020 10:50:51 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_IN_PROGRESS AuthRole                            AWS::IAM::Role             Tue Dec 15 2020 10:50:50 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_IN_PROGRESS DeploymentBucket                    AWS::S3::Bucket            Tue Dec 15 2020 10:50:50 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_IN_PROGRESS amplify-superlearnclient-dev-104821 AWS::CloudFormation::Stack Tue Dec 15 2020 10:50:46 GMT+1100 (Australian Eastern Daylight Time) User Initiated
+⠧ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_COMPLETE AuthRole         AWS::IAM::Role  Tue Dec 15 2020 10:51:10 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_COMPLETE DeploymentBucket AWS::S3::Bucket Tue Dec 15 2020 10:51:10 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_COMPLETE UnauthRole       AWS::IAM::Role  Tue Dec 15 2020 10:51:10 GMT+1100 (Australian Eastern Daylight Time)
+⠧ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS authsuperlearnclientb954df67   AWS::CloudFormation::Stack Tue Dec 15 2020 10:51:15 GMT+1100 (Australian Eastern Daylight Time) Resource creation Initiated
+CREATE_IN_PROGRESS UpdateRolesWithIDPFunctionRole AWS::IAM::Role             Tue Dec 15 2020 10:51:13 GMT+1100 (Australian Eastern Daylight Time) Resource creation Initiated
+CREATE_IN_PROGRESS authsuperlearnclientb954df67   AWS::CloudFormation::Stack Tue Dec 15 2020 10:51:13 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_IN_PROGRESS UpdateRolesWithIDPFunctionRole AWS::IAM::Role             Tue Dec 15 2020 10:51:12 GMT+1100 (Australian Eastern Daylight Time)
+⠋ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS amplify-superlearnclient-dev-104821-authsuperlearnclientb954df67-19YPCYO36IE25 AWS::CloudFormation::Stack Tue Dec 15 2020 10:51:14 GMT+1100 (Australian Eastern Daylight Time) User Initiated
+⠋ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS SNSRole AWS::IAM::Role Tue Dec 15 2020 10:51:21 GMT+1100 (Australian Eastern Daylight Time) Resource creation Initiated
+CREATE_IN_PROGRESS SNSRole AWS::IAM::Role Tue Dec 15 2020 10:51:20 GMT+1100 (Australian Eastern Daylight Time)
+⠇ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_COMPLETE UpdateRolesWithIDPFunctionRole AWS::IAM::Role Tue Dec 15 2020 10:51:34 GMT+1100 (Australian Eastern Daylight Time)
+⠙ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPool AWS::Cognito::UserPool Tue Dec 15 2020 10:51:46 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_COMPLETE    SNSRole  AWS::IAM::Role         Tue Dec 15 2020 10:51:42 GMT+1100 (Australian Eastern Daylight Time)
+⠸ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPoolClientWeb AWS::Cognito::UserPoolClient Tue Dec 15 2020 10:51:51 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_IN_PROGRESS UserPoolClient    AWS::Cognito::UserPoolClient Tue Dec 15 2020 10:51:51 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_COMPLETE    UserPool          AWS::Cognito::UserPool       Tue Dec 15 2020 10:51:48 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_IN_PROGRESS UserPool          AWS::Cognito::UserPool       Tue Dec 15 2020 10:51:48 GMT+1100 (Australian Eastern Daylight Time) Resource creation Initiated
+⠸ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPoolClientRole AWS::IAM::Role               Tue Dec 15 2020 10:51:56 GMT+1100 (Australian Eastern Daylight Time) Resource creation Initiated
+CREATE_IN_PROGRESS UserPoolClientRole AWS::IAM::Role               Tue Dec 15 2020 10:51:55 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_COMPLETE    UserPoolClientWeb  AWS::Cognito::UserPoolClient Tue Dec 15 2020 10:51:53 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_IN_PROGRESS UserPoolClientWeb  AWS::Cognito::UserPoolClient Tue Dec 15 2020 10:51:52 GMT+1100 (Australian Eastern Daylight Time) Resource creation Initiated
+CREATE_COMPLETE    UserPoolClient     AWS::Cognito::UserPoolClient Tue Dec 15 2020 10:51:52 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_IN_PROGRESS UserPoolClient     AWS::Cognito::UserPoolClient Tue Dec 15 2020 10:51:52 GMT+1100 (Australian Eastern Daylight Time) Resource creation Initiated
+⠼ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_COMPLETE UserPoolClientRole AWS::IAM::Role Tue Dec 15 2020 10:52:16 GMT+1100 (Australian Eastern Daylight Time)
+⠴ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_COMPLETE    UserPoolClientLambda AWS::Lambda::Function Tue Dec 15 2020 10:52:21 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_IN_PROGRESS UserPoolClientLambda AWS::Lambda::Function Tue Dec 15 2020 10:52:20 GMT+1100 (Australian Eastern Daylight Time) Resource creation Initiated
+CREATE_IN_PROGRESS UserPoolClientLambda AWS::Lambda::Function Tue Dec 15 2020 10:52:20 GMT+1100 (Australian Eastern Daylight Time)
+⠴ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPoolClientLambdaPolicy AWS::IAM::Policy Tue Dec 15 2020 10:52:24 GMT+1100 (Australian Eastern Daylight Time) Resource creation Initiated
+CREATE_IN_PROGRESS UserPoolClientLambdaPolicy AWS::IAM::Policy Tue Dec 15 2020 10:52:23 GMT+1100 (Australian Eastern Daylight Time)
+⠦ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_COMPLETE UserPoolClientLambdaPolicy AWS::IAM::Policy Tue Dec 15 2020 10:52:44 GMT+1100 (Australian Eastern Daylight Time)
+⠹ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPoolClientLogPolicy AWS::IAM::Policy Tue Dec 15 2020 10:52:47 GMT+1100 (Australian Eastern Daylight Time)
+⠧ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPoolClientLogPolicy AWS::IAM::Policy Tue Dec 15 2020 10:52:48 GMT+1100 (Australian Eastern Daylight Time) Resource creation Initiated
+⠴ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_COMPLETE UserPoolClientLogPolicy AWS::IAM::Policy Tue Dec 15 2020 10:53:07 GMT+1100 (Australian Eastern Daylight Time)
+⠏ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPoolClientInputs Custom::LambdaCallout Tue Dec 15 2020 10:53:10 GMT+1100 (Australian Eastern Daylight Time)
+⠋ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS IdentityPool         AWS::Cognito::IdentityPool Tue Dec 15 2020 10:53:16 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_COMPLETE    UserPoolClientInputs Custom::LambdaCallout      Tue Dec 15 2020 10:53:14 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_IN_PROGRESS UserPoolClientInputs Custom::LambdaCallout      Tue Dec 15 2020 10:53:13 GMT+1100 (Australian Eastern Daylight Time) Resource creation Initiated
+⠋ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS IdentityPoolRoleMap AWS::Cognito::IdentityPoolRoleAttachment Tue Dec 15 2020 10:53:21 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_COMPLETE    IdentityPool        AWS::Cognito::IdentityPool               Tue Dec 15 2020 10:53:18 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_IN_PROGRESS IdentityPool        AWS::Cognito::IdentityPool               Tue Dec 15 2020 10:53:18 GMT+1100 (Australian Eastern Daylight Time) Resource creation Initiated
+⠙ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_COMPLETE    amplify-superlearnclient-dev-104821-authsuperlearnclientb954df67-19YPCYO36IE25 AWS::CloudFormation::Stack               Tue Dec 15 2020 10:53:25 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_COMPLETE    IdentityPoolRoleMap                                                            AWS::Cognito::IdentityPoolRoleAttachment Tue Dec 15 2020 10:53:23 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_IN_PROGRESS IdentityPoolRoleMap                                                            AWS::Cognito::IdentityPoolRoleAttachment Tue Dec 15 2020 10:53:23 GMT+1100 (Australian Eastern Daylight Time) Resource creation Initiated
+⠧ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_COMPLETE authsuperlearnclientb954df67 AWS::CloudFormation::Stack Tue Dec 15 2020 10:53:30 GMT+1100 (Australian Eastern Daylight Time)
+⠇ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UpdateRolesWithIDPFunctionOutputs Custom::LambdaCallout Tue Dec 15 2020 10:53:34 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_COMPLETE    UpdateRolesWithIDPFunction        AWS::Lambda::Function Tue Dec 15 2020 10:53:33 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_IN_PROGRESS UpdateRolesWithIDPFunction        AWS::Lambda::Function Tue Dec 15 2020 10:53:32 GMT+1100 (Australian Eastern Daylight Time) Resource creation Initiated
+CREATE_IN_PROGRESS UpdateRolesWithIDPFunction        AWS::Lambda::Function Tue Dec 15 2020 10:53:32 GMT+1100 (Australian Eastern Daylight Time)
+⠇ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_COMPLETE    UpdateRolesWithIDPFunctionOutputs Custom::LambdaCallout Tue Dec 15 2020 10:53:39 GMT+1100 (Australian Eastern Daylight Time)
+CREATE_IN_PROGRESS UpdateRolesWithIDPFunctionOutputs Custom::LambdaCallout Tue Dec 15 2020 10:53:39 GMT+1100 (Australian Eastern Daylight Time) Resource creation Initiated
+⠹ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_COMPLETE_CLEANUP_IN_PROGRESS amplify-superlearnclient-dev-104821 AWS::CloudFormation::Stack Tue Dec 15 2020 10:53:41 GMT+1100 (Australian Eastern Daylight Time)
+⠇ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_COMPLETE amplify-superlearnclient-dev-104821 AWS::CloudFormation::Stack Tue Dec 15 2020 10:53:42 GMT+1100 (Australian Eastern Daylight Time)
+✔ All resources are updated in the cloud

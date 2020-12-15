@@ -1,9 +1,16 @@
 # Project SuperLearn
 
+---
+
 ## ENV Setup
+
+---
 
 - Download the repo and cd
   ``git clone <repo uri> && cd SuperLearn``
+  
+- File Permissions For DevTools
+  ```chmod a+rwx * && sudo chown -RW $(whoami) *```
 - Install dependencies
   ``yarn add *``
 - Install XCode Developer Tools (iPhone simulator)
@@ -19,13 +26,20 @@
   ``sudo npm install -g serverless``
 
 ## Hot Reload
+
+---
 - Start the local dev server
 ```cd SuperLearn && yarn start```
-  
 - Download client app on mobile and scan QR code for Native App
+  ```
+  ios: https://apps.apple.com/au/app/expo-client/id982107779
+  andorid: https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_AU&gl=US
+  ```
 - Open Chrome Dev Tools for Web App
 
-## Engineering Team OnBoarding (in order, skip what you know)
+## Engineering Team OnBoarding //skip what you know
+
+---
 
 - JavaScript ES6 Basics (1 hours) ``https://www.youtube.com/watch?v=nZ1DMMsyVyI``
 - TypeScript Essentials (3 hours) ``https://www.linkedin.com/learning/typescript-essential-training``
@@ -37,7 +51,9 @@
 - Learning AWS Amplify (2 hours) ``https://www.linkedin.com/learning/learning-aws-amplify``
 - AWS Serverless Applications (12 hours) ``https://www.udemy.com/course-dashboard-redirect/?course_id=1241098``
 
-## Core front end libraries
+## Core Libraries
+
+---
 - Language - TypeScript ``https://www.typescriptlang.org``
 - Client - React (Native, Web) ``https://reactnative.dev``
 - Cloud Native - Amplify/AWS SDK ``https://aws.amazon.com/amplify/``
@@ -49,6 +65,8 @@
 - Run Time Dynamic Presentation - Styled Components ``https://styled-components.com``
 
 ## BizLogic Structure
+
+---
 
 ```
 ├───Operations/ <THINGS WE DO>
@@ -76,7 +94,9 @@
 └───namespace.ts
 ```
 
-## Data Flow
+## Data Flow Structure 
+
+---
 ```
 ├───sagas/ <async i/o>
 │   ├───*
@@ -99,6 +119,8 @@
 
 ## I/O, Time & Space Implementation Rationale
 
+---
+
 ### Amplify DataStore + Redux
 Datastore is an abstraction API layer that handles on device local storage and syncs automatically with AWS databases through magic (which can be configed for optimal performance). Redux is a commonly used state management process, which will tie directly into AWS abstracting all concerns related to backend.
 
@@ -109,6 +131,8 @@ Redux sagas allow for async without side effects or race conditions. Sagas run t
 Reselect uses the memo pattern for complex business logic on the front end, to remove advanced queries on the back end. It can combine different datasets into one dataset for any given component. This allows for maximum  efficiency on where we place front and backend compute tasks. It will act as a default query engine on the front end with minimal i/o.
 
 ## Implementation Plan
+
+---
 
 ### Day zero
 - Unidirectional dataflow skeleton (redux, reselect)
@@ -126,3 +150,5 @@ Reselect uses the memo pattern for complex business logic on the front end, to r
 
 ### Blockers
 - No defined scope
+
+## Continuous Development Person

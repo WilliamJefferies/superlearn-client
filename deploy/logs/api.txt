@@ -1,0 +1,114 @@
+⠙ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_IN_PROGRESS amplify-superlearnclient-dev-104821 AWS::CloudFormation::Stack Tue Dec 15 2020 11:17:32 GMT+1100 (Australian Eastern Daylight Time) User Initiated
+⠦ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_IN_PROGRESS authsuperlearnclientb954df67 AWS::CloudFormation::Stack Tue Dec 15 2020 11:17:37 GMT+1100 (Australian Eastern Daylight Time)
+⠙ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_IN_PROGRESS apisuperlearnclient          AWS::CloudFormation::Stack Tue Dec 15 2020 11:17:40 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_COMPLETE    authsuperlearnclientb954df67 AWS::CloudFormation::Stack Tue Dec 15 2020 11:17:38 GMT+1100 (Australian Eastern Daylight Time)
+⠴ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_IN_PROGRESS amplify-superlearnclient-dev-104821-apisuperlearnclient-1G4WB6WLP7KUQ AWS::CloudFormation::Stack Tue Dec 15 2020 11:17:42 GMT+1100 (Australian Eastern Daylight Time) User Initiated
+⠙ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_IN_PROGRESS PrivateNote AWS::CloudFormation::Stack Tue Dec 15 2020 11:17:47 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_IN_PROGRESS Task        AWS::CloudFormation::Stack Tue Dec 15 2020 11:17:47 GMT+1100 (Australian Eastern Daylight Time)
+⠴ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_COMPLETE    CustomResourcesjson AWS::CloudFormation::Stack Tue Dec 15 2020 11:17:52 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_IN_PROGRESS CustomResourcesjson AWS::CloudFormation::Stack Tue Dec 15 2020 11:17:51 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_COMPLETE    PrivateNote         AWS::CloudFormation::Stack Tue Dec 15 2020 11:17:49 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_COMPLETE    Task                AWS::CloudFormation::Stack Tue Dec 15 2020 11:17:49 GMT+1100 (Australian Eastern Daylight Time)
+⠧ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_COMPLETE_CLEANUP_IN_PROGRESS amplify-superlearnclient-dev-104821-apisuperlearnclient-1G4WB6WLP7KUQ AWS::CloudFormation::Stack Tue Dec 15 2020 11:17:54 GMT+1100 (Australian Eastern Daylight Time)
+⠸ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_COMPLETE_CLEANUP_IN_PROGRESS amplify-superlearnclient-dev-104821 AWS::CloudFormation::Stack Tue Dec 15 2020 11:18:06 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_COMPLETE                     apisuperlearnclient                 AWS::CloudFormation::Stack Tue Dec 15 2020 11:18:04 GMT+1100 (Australian Eastern Daylight Time)
+⠼ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_COMPLETE amplify-superlearnclient-dev-104821 AWS::CloudFormation::Stack Tue Dec 15 2020 11:18:19 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_COMPLETE authsuperlearnclientb954df67        AWS::CloudFormation::Stack Tue Dec 15 2020 11:18:18 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_COMPLETE apisuperlearnclient                 AWS::CloudFormation::Stack Tue Dec 15 2020 11:18:18 GMT+1100 (Australian Eastern Daylight Time)
+✖ An error occurred when pushing the resources to the cloud
+
+EROFS: read-only file system, mkdir '/graphql'
+An error occurred during the push operation: EROFS: read-only file system, mkdir '/graphql'
+williamjefferies@Williams-MacBook-Pro SuperLearnClient % amplify init
+Note: It is recommended to run this command from the root of your app directory
+? Do you want to use an existing environment? Yes
+? Choose the environment you would like to use: dev
+Using default provider  awscloudformation
+⠼ Initializing your environment: devCould not initialize 'dev': EACCES: permission denied, unlink '/Users/williamjefferies/SuperLearnClient/amplify/#current-cloud-backend/amplify-meta.json'
+williamjefferies@Williams-MacBook-Pro SuperLearnClient % sudo amplify push
+✔ Successfully pulled backend environment dev from the cloud.
+
+Current Environment: dev
+
+| Category | Resource name            | Operation | Provider plugin   |
+| -------- | ------------------------ | --------- | ----------------- |
+| Api      | superlearnclient         | Create    | awscloudformation |
+| Auth     | superlearnclientb954df67 | No Change | awscloudformation |
+? Are you sure you want to continue? Yes
+
+GraphQL schema compiled successfully.
+
+Edit your schema at /Users/williamjefferies/SuperLearnClient/amplify/backend/api/superlearnclient/schema.graphql or place .graphql files in a directory at /Users/williamjefferies/SuperLearnClient/amplify/backend/api/superlearnclient/schema
+? Do you want to update code for your updated GraphQL API Yes
+? Do you want to generate GraphQL statements (queries, mutations and subscription) based on your schema types?
+This will overwrite your current graphql queries, mutations and subscriptions Yes
+⠦ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_IN_PROGRESS authsuperlearnclientb954df67        AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:09 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_IN_PROGRESS amplify-superlearnclient-dev-104821 AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:04 GMT+1100 (Australian Eastern Daylight Time) User Initiated
+⠦ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_IN_PROGRESS apisuperlearnclient          AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:12 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_COMPLETE    authsuperlearnclientb954df67 AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:10 GMT+1100 (Australian Eastern Daylight Time)
+⠋ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_IN_PROGRESS amplify-superlearnclient-dev-104821-apisuperlearnclient-1G4WB6WLP7KUQ AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:13 GMT+1100 (Australian Eastern Daylight Time) User Initiated
+⠙ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_COMPLETE    PrivateNote AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:19 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_IN_PROGRESS PrivateNote AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:19 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_IN_PROGRESS Task        AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:19 GMT+1100 (Australian Eastern Daylight Time)
+⠸ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_COMPLETE    CustomResourcesjson AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:22 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_IN_PROGRESS CustomResourcesjson AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:22 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_COMPLETE    Task                AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:20 GMT+1100 (Australian Eastern Daylight Time)
+⠇ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_COMPLETE_CLEANUP_IN_PROGRESS amplify-superlearnclient-dev-104821-apisuperlearnclient-1G4WB6WLP7KUQ AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:25 GMT+1100 (Australian Eastern Daylight Time)
+⠧ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_COMPLETE_CLEANUP_IN_PROGRESS amplify-superlearnclient-dev-104821 AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:37 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_COMPLETE                     apisuperlearnclient                 AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:35 GMT+1100 (Australian Eastern Daylight Time)
+⠇ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_COMPLETE apisuperlearnclient AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:49 GMT+1100 (Australian Eastern Daylight Time)
+⠏ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_COMPLETE amplify-superlearnclient-dev-104821 AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:50 GMT+1100 (Australian Eastern Daylight Time)
+UPDATE_COMPLETE authsuperlearnclientb954df67        AWS::CloudFormation::Stack Tue Dec 15 2020 11:22:49 GMT+1100 (Australian Eastern Daylight Time)
+✔ Generated GraphQL operations successfully and saved at graphql
+(node:11271) UnhandledPromiseRejectionWarning: Error: must provide pattern
+    at new GlobSync (/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/glob/sync.js:31:11)
+    at new Glob (/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/glob/glob.js:129:12)
+    at GlobAll.globNext (/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/glob-all/glob-all.js:97:9)
+    at GlobAll.run (/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/glob-all/glob-all.js:78:8)
+    at Function.globAll.sync (/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/glob-all/glob-all.js:192:41)
+    at /usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-codegen/src/commands/types.js:48:30
+    at Array.forEach (<anonymous>)
+    at generateTypes (/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-codegen/src/commands/types.js:40:16)
+    at postPushCallback (/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-codegen/src/callbacks/postPushCallback.js:31:9)
+    at runMicrotasks (<anonymous>)
+(node:11271) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:11271) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+✔ All resources are updated in the cloud
+
+GraphQL endpoint: https://3kgekv3yczcgtkufsftrq425my.appsync-api.ap-southeast-2.amazonaws.com/graphql
